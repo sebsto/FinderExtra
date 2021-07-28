@@ -3,26 +3,84 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00073260250378BB00632F5B /* FileCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007325F250378BB00632F5B /* FileCreator.swift */; };
+		0007326225039E2D00632F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0007326125039E2D00632F5B /* Assets.xcassets */; };
+		000BDE1E250AC5120086FE35 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000BDE1D250AC5120086FE35 /* AppStore.swift */; };
+		000BDE20250AC9E30086FE35 /* iap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 000BDE1F250AC9E30086FE35 /* iap.plist */; };
+		002178ED250E79110055EA0C /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002178EC250E79110055EA0C /* Analytics.swift */; };
+		002178EE250E79110055EA0C /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002178EC250E79110055EA0C /* Analytics.swift */; };
+		00616970250F918800641A31 /* SotoS3 in Frameworks */ = {isa = PBXBuildFile; productRef = 0061696F250F918800641A31 /* SotoS3 */; };
+		00616972250F918E00641A31 /* SotoCognitoIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = 00616971250F918E00641A31 /* SotoCognitoIdentity */; };
+		00616974250F919500641A31 /* SotoS3 in Frameworks */ = {isa = PBXBuildFile; productRef = 00616973250F919500641A31 /* SotoS3 */; };
+		00616976250F919B00641A31 /* SotoCognitoIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = 00616975250F919B00641A31 /* SotoCognitoIdentity */; };
+		007924552506B882009DBE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007924542506B882009DBE3C /* Assets.xcassets */; };
 		00884A5924FD9343002A6EA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00884A5824FD9343002A6EA6 /* AppDelegate.swift */; };
 		00884A5B24FD9343002A6EA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00884A5A24FD9343002A6EA6 /* ContentView.swift */; };
-		00884A5D24FD9345002A6EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00884A5C24FD9345002A6EA6 /* Assets.xcassets */; };
 		00884A6024FD9345002A6EA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00884A5F24FD9345002A6EA6 /* Preview Assets.xcassets */; };
 		00884A6324FD9345002A6EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00884A6124FD9345002A6EA6 /* Main.storyboard */; };
+		00884A7224FD9370002A6EA6 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00884A7124FD9370002A6EA6 /* FinderSync.swift */; };
+		008A12692506735700E0879A /* AppLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A12682506735700E0879A /* AppLauncher.swift */; };
+		008A126B2506795F00E0879A /* ClipboardCopier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A126A2506795F00E0879A /* ClipboardCopier.swift */; };
+		0090B6BC26B19FE600F27BA0 /* FinderExtraExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 00884A6F24FD9370002A6EA6 /* FinderExtraExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		009ADB30250605E400B2A3D9 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009ADB2F250605E400B2A3D9 /* UserPreferences.swift */; };
+		009ADB31250605E400B2A3D9 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009ADB2F250605E400B2A3D9 /* UserPreferences.swift */; };
+		00B0218A26B18A7100E2C73D /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 00B0218926B18A7100E2C73D /* LaunchAtLogin */; };
+		00FC700E250538130091D9D5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FC700D250538130091D9D5 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		00884A7524FD9370002A6EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00884A4D24FD9343002A6EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00884A6E24FD9370002A6EA6;
+			remoteInfo = FindexExtraExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00884A7B24FD9370002A6EA6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0090B6BC26B19FE600F27BA0 /* FinderExtraExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0007325F250378BB00632F5B /* FileCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCreator.swift; sourceTree = "<group>"; };
+		0007326125039E2D00632F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000BDE1D250AC5120086FE35 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		000BDE1F250AC9E30086FE35 /* iap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = iap.plist; sourceTree = "<group>"; };
+		002178EC250E79110055EA0C /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Analytics.swift; path = FinderExtra/Analytics.swift; sourceTree = SOURCE_ROOT; };
+		007924542506B882009DBE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00884A5524FD9343002A6EA6 /* FinderExtra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderExtra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00884A5824FD9343002A6EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00884A5A24FD9343002A6EA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00884A5C24FD9345002A6EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00884A5F24FD9345002A6EA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00884A6224FD9345002A6EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00884A6424FD9345002A6EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00884A6524FD9345002A6EA6 /* FinderExtra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderExtra.entitlements; sourceTree = "<group>"; };
+		00884A6F24FD9370002A6EA6 /* FinderExtraExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinderExtraExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		00884A7124FD9370002A6EA6 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		00884A7324FD9370002A6EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00884A7424FD9370002A6EA6 /* FinderExtraExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderExtraExtension.entitlements; sourceTree = "<group>"; };
+		008A12682506735700E0879A /* AppLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLauncher.swift; sourceTree = "<group>"; };
+		008A126A2506795F00E0879A /* ClipboardCopier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardCopier.swift; sourceTree = "<group>"; };
+		009ADB2F250605E400B2A3D9 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		00A57B6926B195D400E9C686 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		00CF845F250949820029F973 /* LaunchAtLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LaunchAtLogin.framework; path = Carthage/Build/Mac/LaunchAtLogin.framework; sourceTree = "<group>"; };
+		00E38EF225077B71006873ED /* icons.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = icons.md; sourceTree = "<group>"; };
+		00FC700D250538130091D9D5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +88,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00616976250F919B00641A31 /* SotoCognitoIdentity in Frameworks */,
+				00616974250F919500641A31 /* SotoS3 in Frameworks */,
+				00B0218A26B18A7100E2C73D /* LaunchAtLogin in Frameworks */,
+				00FC700E250538130091D9D5 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00884A6C24FD9370002A6EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00616972250F918E00641A31 /* SotoCognitoIdentity in Frameworks */,
+				00616970250F918800641A31 /* SotoS3 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,8 +110,12 @@
 		00884A4C24FD9343002A6EA6 = {
 			isa = PBXGroup;
 			children = (
+				00A57B6926B195D400E9C686 /* README.md */,
+				009ADB2B2506054400B2A3D9 /* Shared */,
 				00884A5724FD9343002A6EA6 /* FinderExtra */,
+				00884A7024FD9370002A6EA6 /* FinderExtraExtension */,
 				00884A5624FD9343002A6EA6 /* Products */,
+				00FC700C250538130091D9D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				00884A5524FD9343002A6EA6 /* FinderExtra.app */,
+				00884A6F24FD9370002A6EA6 /* FinderExtraExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +133,14 @@
 			children = (
 				00884A5824FD9343002A6EA6 /* AppDelegate.swift */,
 				00884A5A24FD9343002A6EA6 /* ContentView.swift */,
-				00884A5C24FD9345002A6EA6 /* Assets.xcassets */,
+				000BDE1D250AC5120086FE35 /* AppStore.swift */,
 				00884A6124FD9345002A6EA6 /* Main.storyboard */,
+				007924542506B882009DBE3C /* Assets.xcassets */,
+				000BDE1F250AC9E30086FE35 /* iap.plist */,
 				00884A6424FD9345002A6EA6 /* Info.plist */,
 				00884A6524FD9345002A6EA6 /* FinderExtra.entitlements */,
 				00884A5E24FD9345002A6EA6 /* Preview Content */,
+				00E38EF225077B71006873ED /* icons.md */,
 			);
 			path = FinderExtra;
 			sourceTree = "<group>";
@@ -74,6 +153,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		00884A7024FD9370002A6EA6 /* FinderExtraExtension */ = {
+			isa = PBXGroup;
+			children = (
+				00884A7124FD9370002A6EA6 /* FinderSync.swift */,
+				008A12682506735700E0879A /* AppLauncher.swift */,
+				008A126A2506795F00E0879A /* ClipboardCopier.swift */,
+				0007325F250378BB00632F5B /* FileCreator.swift */,
+				0007326125039E2D00632F5B /* Assets.xcassets */,
+				00884A7324FD9370002A6EA6 /* Info.plist */,
+				00884A7424FD9370002A6EA6 /* FinderExtraExtension.entitlements */,
+			);
+			path = FinderExtraExtension;
+			sourceTree = "<group>";
+		};
+		009ADB2B2506054400B2A3D9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				002178EC250E79110055EA0C /* Analytics.swift */,
+				009ADB2F250605E400B2A3D9 /* UserPreferences.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		00FC700C250538130091D9D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00CF845F250949820029F973 /* LaunchAtLogin.framework */,
+				00FC700D250538130091D9D5 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,15 +195,44 @@
 				00884A5124FD9343002A6EA6 /* Sources */,
 				00884A5224FD9343002A6EA6 /* Frameworks */,
 				00884A5324FD9343002A6EA6 /* Resources */,
+				00884A7B24FD9370002A6EA6 /* Embed App Extensions */,
+				00B0218B26B18AA300E2C73D /* Launch at Login */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00884A7624FD9370002A6EA6 /* PBXTargetDependency */,
+			);
+			name = FinderExtra;
+			packageProductDependencies = (
+				00616973250F919500641A31 /* SotoS3 */,
+				00616975250F919B00641A31 /* SotoCognitoIdentity */,
+				00B0218926B18A7100E2C73D /* LaunchAtLogin */,
+			);
+			productName = FinderExtra;
+			productReference = 00884A5524FD9343002A6EA6 /* FinderExtra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00884A6E24FD9370002A6EA6 /* FinderExtraExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00884A7824FD9370002A6EA6 /* Build configuration list for PBXNativeTarget "FinderExtraExtension" */;
+			buildPhases = (
+				00884A6B24FD9370002A6EA6 /* Sources */,
+				00884A6C24FD9370002A6EA6 /* Frameworks */,
+				00884A6D24FD9370002A6EA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FinderExtra;
-			productName = FinderExtra;
-			productReference = 00884A5524FD9343002A6EA6 /* FinderExtra.app */;
-			productType = "com.apple.product-type.application";
+			name = FinderExtraExtension;
+			packageProductDependencies = (
+				0061696F250F918800641A31 /* SotoS3 */,
+				00616971250F918E00641A31 /* SotoCognitoIdentity */,
+			);
+			productName = FindexExtraExtension;
+			productReference = 00884A6F24FD9370002A6EA6 /* FinderExtraExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,16 +241,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Stormacq, Sebastien";
 				TargetAttributes = {
 					00884A5424FD9343002A6EA6 = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					00884A6E24FD9370002A6EA6 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 				};
 			};
 			buildConfigurationList = 00884A5024FD9343002A6EA6 /* Build configuration list for PBXProject "FinderExtra" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -118,11 +261,16 @@
 				Base,
 			);
 			mainGroup = 00884A4C24FD9343002A6EA6;
+			packageReferences = (
+				0061696E250F916B00641A31 /* XCRemoteSwiftPackageReference "soto" */,
+				00B0218826B18A7100E2C73D /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
 			productRefGroup = 00884A5624FD9343002A6EA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				00884A5424FD9343002A6EA6 /* FinderExtra */,
+				00884A6E24FD9370002A6EA6 /* FinderExtraExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -133,12 +281,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				00884A6324FD9345002A6EA6 /* Main.storyboard in Resources */,
+				000BDE20250AC9E30086FE35 /* iap.plist in Resources */,
+				007924552506B882009DBE3C /* Assets.xcassets in Resources */,
 				00884A6024FD9345002A6EA6 /* Preview Assets.xcassets in Resources */,
-				00884A5D24FD9345002A6EA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00884A6D24FD9370002A6EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0007326225039E2D00632F5B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00B0218B26B18AA300E2C73D /* Launch at Login */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Launch at Login";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00884A5124FD9343002A6EA6 /* Sources */ = {
@@ -146,11 +324,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				00884A5B24FD9343002A6EA6 /* ContentView.swift in Sources */,
+				009ADB30250605E400B2A3D9 /* UserPreferences.swift in Sources */,
 				00884A5924FD9343002A6EA6 /* AppDelegate.swift in Sources */,
+				002178ED250E79110055EA0C /* Analytics.swift in Sources */,
+				000BDE1E250AC5120086FE35 /* AppStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00884A6B24FD9370002A6EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A126B2506795F00E0879A /* ClipboardCopier.swift in Sources */,
+				00073260250378BB00632F5B /* FileCreator.swift in Sources */,
+				002178EE250E79110055EA0C /* Analytics.swift in Sources */,
+				009ADB31250605E400B2A3D9 /* UserPreferences.swift in Sources */,
+				00884A7224FD9370002A6EA6 /* FinderSync.swift in Sources */,
+				008A12692506735700E0879A /* AppLauncher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00884A7624FD9370002A6EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00884A6E24FD9370002A6EA6 /* FinderExtraExtension */;
+			targetProxy = 00884A7524FD9370002A6EA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		00884A6124FD9345002A6EA6 /* Main.storyboard */ = {
@@ -190,6 +392,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -214,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -250,6 +453,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -268,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -280,10 +484,13 @@
 		00884A6924FD9345002A6EA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FinderExtra/FinderExtra.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 20200905;
 				DEVELOPMENT_ASSET_PATHS = "\"FinderExtra/Preview Content\"";
 				DEVELOPMENT_TEAM = 56U756R2L2;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -293,7 +500,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stormacq.mac.FinderExtra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -303,10 +511,13 @@
 		00884A6A24FD9345002A6EA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FinderExtra/FinderExtra.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 20200905;
 				DEVELOPMENT_ASSET_PATHS = "\"FinderExtra/Preview Content\"";
 				DEVELOPMENT_TEAM = 56U756R2L2;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -316,9 +527,60 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stormacq.mac.FinderExtra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00884A7924FD9370002A6EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FinderExtraExtension/FinderExtraExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 20200905;
+				DEVELOPMENT_TEAM = 56U756R2L2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FinderExtraExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stormacq.mac.FinderExtra.FinderExtraExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00884A7A24FD9370002A6EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FinderExtraExtension/FinderExtraExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 20200905;
+				DEVELOPMENT_TEAM = 56U756R2L2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FinderExtraExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stormacq.mac.FinderExtra.FinderExtraExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -344,7 +606,63 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		00884A7824FD9370002A6EA6 /* Build configuration list for PBXNativeTarget "FinderExtraExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00884A7924FD9370002A6EA6 /* Debug */,
+				00884A7A24FD9370002A6EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0061696E250F916B00641A31 /* XCRemoteSwiftPackageReference "soto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soto-project/soto";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		00B0218826B18A7100E2C73D /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0061696F250F918800641A31 /* SotoS3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0061696E250F916B00641A31 /* XCRemoteSwiftPackageReference "soto" */;
+			productName = SotoS3;
+		};
+		00616971250F918E00641A31 /* SotoCognitoIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0061696E250F916B00641A31 /* XCRemoteSwiftPackageReference "soto" */;
+			productName = SotoCognitoIdentity;
+		};
+		00616973250F919500641A31 /* SotoS3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0061696E250F916B00641A31 /* XCRemoteSwiftPackageReference "soto" */;
+			productName = SotoS3;
+		};
+		00616975250F919B00641A31 /* SotoCognitoIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0061696E250F916B00641A31 /* XCRemoteSwiftPackageReference "soto" */;
+			productName = SotoCognitoIdentity;
+		};
+		00B0218926B18A7100E2C73D /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00B0218826B18A7100E2C73D /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 00884A4D24FD9343002A6EA6 /* Project object */;
 }
